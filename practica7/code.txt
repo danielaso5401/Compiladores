@@ -1,0 +1,13 @@
+corpo {
+intei _x=5
+dupla _y=6.8
+val _z="a"
+corrente _w="hola"
+binar _s=verdade
+sim (_x<_y){
+	mostre ("hola mundo")
+}
+enquanto(_x<>_y){
+	ler()
+}
+}
