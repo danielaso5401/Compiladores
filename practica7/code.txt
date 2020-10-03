@@ -10,4 +10,5 @@ sim (_x<_y){
 enquanto(_x<>_y){
 	ler()
 }
+volta 0
 }
