@@ -4,7 +4,7 @@ import ply.lex as lex
 tokens = ('num','soma','sub','multi','div','pari','parf','cori','corf','llai',
           'llaf','id','val1','val2','val3','val4','val5','newline','comment','equal',
           'corr','may','men','maye','mene','val6','flutu','repet','si','sino', 'sinosi',
-          'leer','imprimir','cuerpo','rec','dis')
+          'leer','imprimir','cuerpo','rec','dis','ret')
 
 
 t_val1= r'intei'
@@ -14,7 +14,7 @@ t_val4= r'corrente'
 t_val5= r'binar'
 #funcio
 t_val6= r'vaz'
-
+t_ret=r'volta'
 #operacios
 t_soma = r'\+'
 t_sub = r'-'
