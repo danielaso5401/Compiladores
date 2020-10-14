@@ -1,0 +1,18 @@
+code example2
+digraph G {
+  cuerpo -> body
+  body -> "llai"
+  body -> expr
+  body -> "llaf"
+  expr -> "type_intei"
+  expr -> "equal"
+  expr -> "num"
+  expr -> "type_intei2"
+  expr -> "equal2"
+  expr -> "num2"
+  expr -> "type_intei3"
+  expr -> "equal3"
+  "soma" -> "type_intei"
+  expr -> "soma"
+  "soma" -> "type_intei2"
+}

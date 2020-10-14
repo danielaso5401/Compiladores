@@ -1,0 +1,11 @@
+digraph G {
+  "corpo" -> "body"
+   "body" -> "llave_i"
+  "body" -> "expr"
+  "body" -> "llave_f"
+  "expr" ->"mostre"
+  "mostre" ->"par_i"
+  "mostre" ->"'hola mundo'"
+  "mostre" ->"par_f"
+ 
+}

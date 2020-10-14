@@ -1,0 +1,7 @@
+corpo{
+	binar _a=verdade
+	enquanto(_a<>falso){
+		_a=ler()
+	}
+
+}
