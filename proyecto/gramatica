@@ -1,0 +1,56 @@
+CORPO -> FUN corpo llai VAL ASI CON MOST LEC llaf
+FUN -> ''
+FUN -> FUN_S FUN
+FUN_S -> vaz id pari PAR parf llai VAL ASI CON MOST LEC ret VAL llaf
+PAR -> ''
+PAR -> TYPE id PARAM_DEF 
+PARAM_DEF   -> coma TYPE id PARAM_DEF
+PARAM_DEF   -> ''
+CON -> CON_S CON
+CON -> ''
+CON_S -> TYPE_CON pari FN CONT FN parf llai VAL ASI OU PU CON llaf
+OU ->'' 
+OU -> OU_S OU
+OU_S -> saida pari FN parf
+PU -> ''
+PU -> PU_S PU
+PU_S -> dama pari parf
+LEC -> ''
+LEC -> LEC_S LEC 
+LEC_S -> ler pari parf
+MOST -> ''
+MOST -> MOST_S MOST 
+MOST_S -> mostre pari FN parf
+CONT -> may
+CONT -> men
+CONT -> maye
+CONT -> mene
+CONT -> dif
+CONT -> simi
+TYPE_CON -> sin
+TYPE_CON -> senao
+TYPE_CON -> senaosin
+TYPE_CON -> enquanto
+VAL -> VAL_S VAL
+VAL -> ''
+VAL_S -> TYPE id
+VAL_S -> id
+TYPE -> intei
+TYPE -> dupla
+TYPE -> val
+TYPE -> corrente
+TYPE -> binar
+ASI -> ASI_S ASI
+ASI -> ''
+ASI_S -> equal E
+E -> T R
+R -> SIM T R
+R -> ''
+T -> FN
+FN -> id
+FN -> num
+FN -> corr
+SIM -> soma
+SIM -> sub
+SIM -> multi
+SIM -> div

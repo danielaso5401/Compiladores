@@ -1,0 +1,161 @@
+digraph {
+	0 [label=CORPO]
+	1 [label=FUN]
+	0 -> 1
+	2 [label=corpo]
+	0 -> 2
+	3 [label=llai]
+	0 -> 3
+	4 [label=VAL]
+	0 -> 4
+	5 [label=ASI]
+	0 -> 5
+	6 [label=CON]
+	0 -> 6
+	7 [label=MOST]
+	0 -> 7
+	8 [label=LEC]
+	0 -> 8
+	9 [label=llaf]
+	0 -> 9
+	10 [label=FUN_S]
+	1 -> 10
+	11 [label=FUN]
+	1 -> 11
+	12 [label=vaz]
+	10 -> 12
+	13 [label=id]
+	10 -> 13
+	14 [label=pari]
+	10 -> 14
+	15 [label=PAR]
+	10 -> 15
+	16 [label=parf]
+	10 -> 16
+	17 [label=llai]
+	10 -> 17
+	18 [label=VAL]
+	10 -> 18
+	19 [label=ASI]
+	10 -> 19
+	20 [label=CON]
+	10 -> 20
+	21 [label=MOST]
+	10 -> 21
+	22 [label=LEC]
+	10 -> 22
+	23 [label=ret]
+	10 -> 23
+	24 [label=VAL]
+	10 -> 24
+	25 [label=llaf]
+	10 -> 25
+	26 [label=TYPE]
+	15 -> 26
+	27 [label=id]
+	15 -> 27
+	28 [label=PARAM_DEF]
+	15 -> 28
+	29 [label=intei]
+	26 -> 29
+	30 [label=coma]
+	28 -> 30
+	31 [label=TYPE]
+	28 -> 31
+	32 [label=id]
+	28 -> 32
+	33 [label=PARAM_DEF]
+	28 -> 33
+	34 [label=dupla]
+	31 -> 34
+	35 [label=e]
+	33 -> 35
+	36 [label=e]
+	18 -> 36
+	37 [label=e]
+	19 -> 37
+	38 [label=e]
+	20 -> 38
+	39 [label=e]
+	21 -> 39
+	40 [label=e]
+	22 -> 40
+	41 [label=VAL_S]
+	24 -> 41
+	42 [label=VAL]
+	24 -> 42
+	43 [label=id]
+	41 -> 43
+	44 [label=e]
+	42 -> 44
+	45 [label=e]
+	11 -> 45
+	46 [label=VAL_S]
+	4 -> 46
+	47 [label=VAL]
+	4 -> 47
+	48 [label=TYPE]
+	46 -> 48
+	49 [label=id]
+	46 -> 49
+	50 [label=intei]
+	48 -> 50
+	51 [label=VAL_S]
+	47 -> 51
+	52 [label=VAL]
+	47 -> 52
+	53 [label=TYPE]
+	51 -> 53
+	54 [label=id]
+	51 -> 54
+	55 [label=corrente]
+	53 -> 55
+	56 [label=VAL_S]
+	52 -> 56
+	57 [label=VAL]
+	52 -> 57
+	58 [label=id]
+	56 -> 58
+	59 [label=e]
+	57 -> 59
+	60 [label=ASI_S]
+	5 -> 60
+	61 [label=ASI]
+	5 -> 61
+	62 [label=equal]
+	60 -> 62
+	63 [label=E]
+	60 -> 63
+	64 [label=T]
+	63 -> 64
+	65 [label=R]
+	63 -> 65
+	66 [label=FN]
+	64 -> 66
+	67 [label=num]
+	66 -> 67
+	68 [label=e]
+	65 -> 68
+	69 [label=e]
+	61 -> 69
+	70 [label=e]
+	6 -> 70
+	71 [label=MOST_S]
+	7 -> 71
+	72 [label=MOST]
+	7 -> 72
+	73 [label=mostre]
+	71 -> 73
+	74 [label=pari]
+	71 -> 74
+	75 [label=FN]
+	71 -> 75
+	76 [label=parf]
+	71 -> 76
+	77 [label=num]
+	75 -> 77
+	78 [label=e]
+	72 -> 78
+	79 [label=e]
+	8 -> 79
+}

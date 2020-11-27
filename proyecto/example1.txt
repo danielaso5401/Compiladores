@@ -1,0 +1,5 @@
+corpo{
+	intei _a = 5
+	intei _b= 6
+	intei _c=_a+_b
+}

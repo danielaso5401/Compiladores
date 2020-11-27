@@ -1,0 +1,11 @@
+vaz _corzo(intei _a,dupla _b){
+	volta _b
+}
+corpo{
+	binar _a=0
+	sin (_a<1){
+		saida(_a)
+	}
+
+
+}

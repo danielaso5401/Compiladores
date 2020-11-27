@@ -1,0 +1,3 @@
+corpo{
+	mostre('hola mundo')
+}

@@ -1,0 +1,5 @@
+vaz id pari intei id coma dupla id parf llai ret id llaf corpo llai binar id equal num enquanto pari id dif num parf llai id equal ler pari parf mostre pari id parf llaf llaf
+
+
+vaz id pari intei id coma dupla id parf llai ret id llaf corpo llai binar id equal num sin pari id dif num parf llai saida pari num parf llaf llaf
+vaz id pari intei id coma dupla id parf llai ret id llaf corpo llai binar id equal num enquanto pari id dif num parf llai mostre pari id parf llaf llaf
