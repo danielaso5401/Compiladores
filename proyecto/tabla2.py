@@ -126,9 +126,31 @@ insertar_parametros(parser2.arbolito)
 for i in range(len(tabla_de_simbolos)):    
    print(tabla_de_simbolos[i].token,tabla_de_simbolos[i].tipo)
 comprobar_existencia_llamada()
-comp()
+#comp()
 insertar_tipo(parser2.arbolito)
 for i in range(len(tabla_de_atributos)):    
    print(tabla_de_atributos[i].token,tabla_de_atributos[i].atributo)
 
 comprobar_asignacion()
+marca=False
+def chek_val():
+   for i in range(len(tabla_de_atributos)):
+       if tabla_de_atributos[i].atributo=="asignacion":
+           var=tabla_de_atributos[i-1].lexema
+           for j in range(len(tabla_de_atributos)):
+               if var==tabla_de_atributos[j].lexema and tabla_de_atributos[j].atributo!="asignacion retorno":
+                   if tabla_de_atributos[i].token=="num" and tabla_de_atributos[j].atributo=="intei":
+                       print("accion correcta")
+                       marca=True
+                   if tabla_de_atributos[i].token=="corrente" and tabla_de_atributos[j].atributo=="corrente":
+                       print("accion correcta")
+                       marca=True
+                   if tabla_de_atributos[i].token=="dupla" and tabla_de_atributos[j].atributo=="dupla":
+                       print("accion correcta")
+                       marca=True
+                   else:
+                       print("error el dato asignado no es del tipo")
+                    
+if(marca!=True):
+    chek_val()
+            
