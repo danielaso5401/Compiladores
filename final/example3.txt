@@ -1,0 +1,9 @@
+
+corpo{
+binar _a=0.0
+intei _y=6
+_y=15
+mostre("hola mundo")
+
+
+}

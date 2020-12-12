@@ -1,0 +1,5 @@
+corpo{
+
+	intei _b= 6
+
+}

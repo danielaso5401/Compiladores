@@ -1,0 +1,10 @@
+vaz _corzo(intei _a,dupla _b){
+	volta _b
+}
+corpo{
+intei _a
+intei  _r
+_r=5
+mostre(5)
+
+}
