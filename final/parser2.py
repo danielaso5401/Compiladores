@@ -137,12 +137,7 @@ def filas(stra):
         return 27
     else:
         return 0
-def ver_error(x):
-    if x==1:
-        print("errror linea 7 _r no declarada")
-def ved():
-    print("error linea 7 _r no es tipo intei")
-    return False
+
 df = pd.read_excel("final.xlsx", 'Hoja1',  header=None)
 tablita_parse = df.values
 
